@@ -27,6 +27,8 @@ android {
 
 repositories {
     mavenCentral()
+    jcenter()
+    google()
 }
 
 dependencies {
