@@ -10,7 +10,7 @@ public class CardService extends HostApduService {
 
     private static final String TAG = "CardService";
 
-    private static final String AID = "F201808175xxxxx";
+    private static final String AID = "D2760000850100";
 
     private static final String SELECT_APDU_HEADER = "00A40400";
     private static final byte[] SELECT_OK_SW = HexStringToByteArray("9000");
